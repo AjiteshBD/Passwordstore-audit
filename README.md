@@ -91,11 +91,3 @@ forge coverage --report debug
 - Solc Version: 0.8.18
 - Chain(s) to deploy contract to: Ethereum
 
-## Create the audit report
-
-View the [audit-report-templating](https://github.com/Cyfrin/audit-report-templating) repo to install all dependencies. 
-
-```bash
-cd audits
-pandoc 2023-09-01-password-store-report.md -o report.pdf --from markdown --template=eisvogel --listings
-```
