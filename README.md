@@ -82,7 +82,7 @@ forge coverage --report debug
 
 # Audit Scope Details
 
-- Commit Hash:  2e8f81e263b3a9d18fab4fb5c46805ffc10a9990
+- Commit Hash:  2e8f81e263b3a9d18fab4fb5c46805ffc10a9990 <as per original code base>
 - In Scope:
 ```
 ./src/
@@ -91,11 +91,3 @@ forge coverage --report debug
 - Solc Version: 0.8.18
 - Chain(s) to deploy contract to: Ethereum
 
-## Create the audit report
-
-View the [audit-report-templating](https://github.com/Cyfrin/audit-report-templating) repo to install all dependencies. 
-
-```bash
-cd audits
-pandoc 2023-09-01-password-store-report.md -o report.pdf --from markdown --template=eisvogel --listings
-```
